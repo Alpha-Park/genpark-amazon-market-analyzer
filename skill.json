@@ -1,0 +1,10 @@
+{
+  "name": "genpark-amazon-market-analyzer",
+  "version": "1.0.0",
+  "description": "GenPark Amazon Market Analyzer - Buy Box win probability logistic modeler, FBA vs FBM unit cost profitability calculator, and review-to-sales velocity anomaly auditor with zero dependencies.",
+  "tools": [
+    "predict_buy_box_win_probability",
+    "arbitrate_fba_vs_fbm_unit_profitability",
+    "audit_review_to_sales_velocity_ratio"
+  ]
+}
