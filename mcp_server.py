@@ -53,8 +53,7 @@ def audit_review_to_sales_velocity_ratio(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Amazon Market Analyzer:")
-    print(predict_buy_box_win_probability(29.99, 29.99, True))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
